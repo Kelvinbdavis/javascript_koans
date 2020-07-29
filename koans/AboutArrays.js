@@ -19,13 +19,13 @@ describe("About Arrays", function() {
     var array = [];
     expect(array).toEqual([]);
     
-    array[0] = 1;
+    array[0] = 2;
     expect(array).toEqual([1]);
     
-    array[1] = 2;
+    array[1] = 3;
     expect(array).toEqual([1, FILL_ME_IN]);
     
-    array.push(3);
+    array.push(4);
     expect(array).toEqual(FILL_ME_IN);
   });
 
